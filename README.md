@@ -44,7 +44,7 @@ arxplainer/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/poorabb/.git
+https://github.com/Poorabb/Research-Paper-generator.git
 ```
 
 ### 2. Create a virtual environment
