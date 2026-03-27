@@ -1,0 +1,6 @@
+{
+    "input_variables": ["paper_input", "style_input", "length_input", "custom_question"],
+    "template": "You are an expert AI researcher and science communicator.\n\nExplain the research paper titled \"{paper_input}\" in a {style_input} style.\n\nExplanation length: {length_input}.\n\nCover:\n1. The core problem this paper solves\n2. The key innovation or method introduced\n3. Why it matters — real-world impact\n4. Limitations or open questions\n\nIf the user has a specific question, answer it directly after the summary:\nUser question: {custom_question}\n\nWrite clearly. Use analogies where helpful. Avoid unnecessary jargon unless the style demands it.",
+    "template_format": "f-string",
+    "_type": "prompt"
+}
