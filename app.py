@@ -7,7 +7,7 @@ import time
 load_dotenv()
 
 st.set_page_config(
-    page_title="Research Paper generator — AI Research Paper Decoder",
+    page_title="Research Paper Generator — AI Research Paper Decoder",
     page_icon="📄",
     layout="centered"
 )
@@ -22,7 +22,9 @@ st.markdown("""
         font-size: 12px; font-weight: 600;
     }
     .result-card {
-        background: #f9f9f9; border-left: 3px solid #4f8ef7;
+        background: #f9f9f9;
+        color: #1a1a1a;
+        border-left: 3px solid #4f8ef7;
         padding: 1.2rem 1.4rem; border-radius: 8px;
         margin-top: 1rem; line-height: 1.7;
     }
@@ -30,7 +32,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-st.markdown("# Research Paper generator")
+st.markdown("# Research Paper Generator")
 st.markdown('<span class="header-badge">Gemini-powered</span>', unsafe_allow_html=True)
 st.caption("Decode landmark AI research papers — tailored to your level and style.")
 st.divider()
