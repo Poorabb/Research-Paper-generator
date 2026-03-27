@@ -1,3 +1,5 @@
+# Research Paper Generator
+
 A Streamlit web application that uses Google Gemini to generate tailored explanations of landmark AI research papers. Users can select a paper, choose an explanation style, set the depth, and optionally ask a specific question — all processed through a LangChain prompt pipeline.
 
 ---
@@ -19,7 +21,7 @@ A Streamlit web application that uses Google Gemini to generate tailored explana
 | Layer | Tool |
 |---|---|
 | UI | Streamlit |
-| LLM | Google Gemini 2.0 Flash |
+| LLM | Google Gemini 3.0 Flash |
 | Orchestration | LangChain |
 | Prompt management | LangChain `load_prompt` (JSON template) |
 | Environment | python-dotenv |
@@ -29,7 +31,7 @@ A Streamlit web application that uses Google Gemini to generate tailored explana
 ## Project Structure
 
 ```
-arxplainer/
+research-paper-generator/
 ├── app.py               # Main Streamlit application
 ├── template.json        # LangChain prompt template
 ├── requirements.txt     # Python dependencies
