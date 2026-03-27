@@ -91,7 +91,7 @@ The app will open at `http://localhost:8501`.
 4. The response is displayed with generation time and a download option.
 
 ```
-User Input → LangChain Prompt Template → Gemini 2.0 Flash → Streamlit Output
+User Input → LangChain Prompt Template → Gemini 3.0 Flash Preview → Streamlit Output
 ```
 
 ---
